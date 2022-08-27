@@ -1,5 +1,7 @@
+#R3
 #DEBO: Introducir un registro de ventas desde una lista de tuplas como parametro de autopartes
 #y convertirlo luego en un diccionario con lista de tuplas
+
 
 #Autopartes debe generar un dict que le llega a consultar registro como 'ventas' 
 #el ventas de autopartes no es el mismo de consultar registro
