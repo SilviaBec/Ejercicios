@@ -24,8 +24,18 @@ public class sw {
         default:
         System.out.println("Otro mes u otra cosa");
     }
-    System.out.println("El mes es "+mesLetra
-    );
+    System.out.println("El mes es "+mesLetra);
+    String color ="Amarillo";
+    switch (color){
+        case "Amarillo":
+        System.out.println("Prevención");
+        break;
+        case "Rojo":
+        System.out.println("Deténgase");
+        case "Verde":
+        System.out.println("Avance");
+        break;
+    }
         
     }
 }
