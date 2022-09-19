@@ -24,4 +24,5 @@ public class Ejercicio2 {
         Ejercicio2 tabla1 = new Ejercicio2();
         tabla1.capturaDato();
     }
+    
 }
