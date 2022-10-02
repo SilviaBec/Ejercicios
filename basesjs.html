@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Primer ejemplo</h1>
+    <script>
+        document.write("<h2>");
+
+
+        var nombre; //No es necesario el tipo de dato pero podemos poner var let o cons
+        nombre="Silvania";
+        //Para imprimir mi variable tengo varias opciones:
+        document.write(nombre);
+        console.log("El nombre es: "+nombre)
+        alert("El nombre en el alert es: "+nombre)
+
+        //Si no quiero poner los datos quemados sino recibirlos por consola uso prompt
+        animalFav= prompt("Ingrese el animal favorito: ");
+        //Si quiero recibir un numero, hago una conversión
+        var n1, n2;
+        n1=parseInt(prompt("Ingrese numero 1: "))
+        n2=parseFloat(prompt("Ingrese numero 2: "))
+        suma=n1+n2
+        alert(suma)
+
+
+
+
+
+        document.write("</h2>");
+    </script>
+</body>
+</html>
