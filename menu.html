@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+</head>
+<body>
+    <h1>Elegir un número de la siguiente tabla para imprimir el nombre de la temporada</h1>
+<ul>
+    <li> |1| Invierno </li>
+    <li> |2| Verano </li>
+    <li> |3| Otoño </li>
+    <li> |4| Primavera </li>
+</ul>
+    
+
+    <script>
+document.write("<h2>")
+var numero, menu;
+menu = "Menu\n";
+menu += "1. Invierno\n";
+menu += "2. Verano\n";
+menu += "3. Otoño\n";
+menu += "4. Primavera\n";
+menu += "Ingrese un numero para imprimir el nombre de la temporada"
+numero = parseInt(prompt(menu))
+
+switch(numero){
+    case 1: document.write("La temporada elegida fue : Invierno");
+    break;
+    case 2: document.write("La temporada elegida fue : Verano");
+    break;
+    case 3: document.write("La temporada elegida fue : Otoño");
+    break;
+    case 4: document.write("La temporada elegida fue : Primavera");
+    break;
+}
+
+document.write("</h2>")
+
+    </script>
+
+</body>
+</html>
