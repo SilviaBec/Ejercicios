@@ -14,18 +14,24 @@ for num in range (y,-1,-1):
 for num in range (z,-1,-1):
     k.append(num)
 
-m
-# perJ= itertools.permutations(j)
-# perK= itertools.permutations(k)
+perI= list(itertools.combinations(i,1))
+
+perJ= list(itertools.combinations(j,1))
+
+perK= set(itertools.combinations(k,1))
+
 lGrande=[]
+lista2=[perI,perJ,perK]
 for valor in i:
     lGrande.append(valor)
-# for valor in j:
-#     lGrande.append(valor)
-# for valor in k:
-#         lGrande.append(valor)
+for valor in j:
+    lGrande.append(valor)
+for valor in k:
+        lGrande.append(valor)
 
-per=set(itertools.permutations(lGrande,1))
+print(perJ)
+
+per=set(itertools.combinations(lGrande,3))
 
 # for val in per:
 #     if val[0]+val[1]+val[2]!=n:
